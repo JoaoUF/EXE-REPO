@@ -6,7 +6,9 @@ body{
     flex-direction: column;
     align-items: center;
 }
+/*TOP BAR*/
 .box-one{
+    font-family: 'Poppins', sans-serif;
     width: 1200px;
     height: 93px;
     padding-top: 36px;
@@ -16,22 +18,33 @@ body{
     align-items: center;
 }
 .logo{
-    width: 150;
+    width: 180px;
     display: flex;
-    justify-content: center;
+    flex-flow: row;
+    justify-content: start;
     align-items: center;
 }
 .logo-circle{
+    position: absolute;
     width: 65px;
     height: 65px;
-    align-items: center;
-    text-align: center;
     color: #F9B985;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #32261A;
-    border: 2px solid;
+    border: 4px solid;
     border-color: #F9B985;
     border-radius: 50%;
+}
+.logo-circle h4{
+    margin: 0px;
+}
+.logo .text{
+    margin-left: 80px;
+    color: white;
+    font-size: 25px;
 }
 .box-one ul{
     display: flex;
@@ -76,11 +89,23 @@ body{
     border-radius: 16px;
 }
 
+/*IMAGE SLIDE*/
 .box-two{
     width: 1200px;
     padding-top: 120px;
     padding-bottom: 120px;
+    display: flex;
+    flex-flow: row;
 }
+.box-dashboard{
+    width: 600px;
+    height: 460px;
+}
+.box-dashboard img{
+    width: 600px;
+    height: 460px;
+}
+
 .box-three{
     width: 1200px;
     padding-top: 67px;
