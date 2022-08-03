@@ -198,8 +198,77 @@ input[name="button-brown"]{
     font-size: 29px;
     line-height: 44px;
 }
+
+/*FINAL DASHBOARD*/
 .box-four{
     width: 1200px;
     padding-top: 102px;
     padding-bottom: 102px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.tutorials{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 24px 19px;
+}
+.tutorial-box{
+    width: 352px;
+    height: 363px;
+    background: rgba(255, 196, 158, 0.1);
+    border: 1px solid #AF612D;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.tutorial-box-detail{
+    width: 314px;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tutorial-box img{
+    width: 314px;
+    height: 186px;
+    border-radius: 10px;
+}
+.tutorial-box-detail img{
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;  
+}
+.detail-text{
+    width: fit-content;
+}
+.detail-text h4,h5{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.detail-text h4{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.detail-text h5{
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    color: #F9B985;
+}
+.tutorial-box-detail input{
+    width: 98px;
+    height: 74px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 44px;
+    font-family: 'Rubik', sans-serif;
 }
