@@ -9,6 +9,7 @@ body{
 /*TOP BAR*/
 .box-one{
     font-family: 'Poppins', sans-serif;
+    background-color: #32261A;
     width: 1200px;
     height: 93px;
     padding-top: 36px;
@@ -16,6 +17,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 .logo{
     width: 180px;
@@ -91,6 +93,7 @@ body{
 
 /*IMAGE SLIDE*/
 .box-two{
+    margin-top: 93px;
     width: 1200px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -105,11 +108,95 @@ body{
     width: 600px;
     height: 460px;
 }
+.box-dashboard label{
+    font-size: 55px;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 74px;
+}
+.box-dashboard label[for="blanco"]{
+    color: white;
+}
+.box-dashboard label[for="marron"]{
+    color: #F9B985;
+}
+.box-dashboard p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    word-spacing: 3px;
+}
+.button-row{
+    padding-top: 41px;
+    display: flex;
+    flex-flow: row;
+}
+.button-row input{
+    padding: 15px 20px;
+    width: 197px;
+    height: 74px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
+}
+input[name="button-orange"]{
+    border: 1.5px solid #000;
+    background: linear-gradient(104.85deg, #AF612D -27.27%, #FFA56A 117.63%);
+    color: white;
+    
+}
+input[name="button-brown"]{
+    border: 1.5px solid #E28C54;
+    background-color: transparent;
+    color: #E28C54;
+    margin-left: 10px;
+}
 
+/*ORANGE BOX*/
 .box-three{
+    height: 214px;
     width: 1200px;
-    padding-top: 67px;
-    padding-bottom: 67px;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    background: rgba(198, 116, 62, 0.8);
+    box-shadow: 13px 22px 52px rgba(0, 0, 0, 0.1);
+    border-radius: 31px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-item{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle-yellow{
+    border-radius: 50%;
+    position: static;
+    background: #D3C11B;
+    width: 98px;
+    height: 98px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-yellow i{
+    color: white;
+}
+.box-item h6{
+    color: #FFF48C;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    font-size: 29px;
+    line-height: 44px;
 }
 .box-four{
     width: 1200px;
